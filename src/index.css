@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url(./assets/font1.ttf);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(./assets/font2.ttf);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(./assets/Cakecafe.otf);
+}
+@font-face {
+  font-family: font4;
+  src: url(./assets/Chalkduster.ttf);
+}
+@font-face {
+  font-family: font5;
+  src: url(./assets/Blantick\ Script.ttf);
+}
+
+@font-face {
+  font-family: font6;
+  src: url(./assets/Darling.ttf);
+}
+ 
+*{
+  font-family: font1;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+  
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.font1{
+  font-family: font3;
+}
+
+.font2{
+  font-family: font4;
+}
+
+.font3{
+  font-family: font5;
+}
+
+.font4{
+  font-family: font6;
+}
